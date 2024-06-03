@@ -1,0 +1,15 @@
+[
+    {
+        "_id": {"$oid": "60d5ec1c1d4f2b6c0f85d7c2"},
+        "unique_id": "f3b9d8c0-3e9d-4fbb-bd69-7c9b914b5a3c",
+        "trends": [
+            "#Trend1",
+            "#Trend2",
+            "#Trend3",
+            "#Trend4",
+            "#Trend5"
+        ],
+        "timestamp": {"$date": "2023-06-01T12:00:00Z"},
+        "proxy": "123.45.67.89:8080"
+    }
+]

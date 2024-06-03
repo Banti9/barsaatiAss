@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Trending Topics</title>
+</head>
+<body>
+    <h1>Twitter Trending Topics</h1>
+    <button id="fetch-button">Click here to run the script</button>
+    <div id="trends"></div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Trending Topics</title>
+</head>
+<body>
+    <h1>Twitter Trending Topics</h1>
+    <button onclick="fetchTrends()">Fetch Trends</button>
+    <ul id="trends"></ul>
+
+    <script>
+        async function fetchTrends() {
+            const response = await fetch('/fetch_trends');
+            const data = await response.json();
+            const trendsList = document.getElementById('trends');
+            trendsList.innerHTML = '';
+            data.trends.forEach(trend => {
+                const li = document.createElement('li');
+                li.textContent = trend;
+                trendsList.appendChild(li);
+            });
+        }
+    </script>
+</body>
+</html> -->
